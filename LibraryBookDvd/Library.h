@@ -12,7 +12,7 @@ public:
     Library(){}
 
     virtual void printInfo(){
-        std::cout << "Default print info if not exists one." << std::endl;
+        std::cout << "Default print info if not exists one" << std::endl;
     }
 
     void addToLibrary(Library* newElement){
